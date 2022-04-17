@@ -123,6 +123,52 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Channel.h" />
+    <ClInclude Include="Communication.h" />
+    <ClInclude Include="DataProcessingUtil.h" />
+    <ClInclude Include="FileName.h" />
+    <ClInclude Include="IW.h" />
+    <ClInclude Include="MathUtil.h" />
+    <ClInclude Include="MemoryManagementUtil.h" />
+    <ClInclude Include="Modem.h" />
+    <ClInclude Include="PolarCoder.h" />
+    <ClInclude Include="PolarCoderBPL.h" />
+    <ClInclude Include="PolarCoderBPL2.h" />
+    <ClInclude Include="PolarCoderPFG.h" />
+    <ClInclude Include="random.h" />
+    <ClInclude Include="RateAdapter.h" />
+    <ClInclude Include="RayleighChannel.h" />
+    <ClInclude Include="Result.h" />
+    <ClInclude Include="ResultBPL.h" />
+    <ClInclude Include="ResultOnce.h" />
+    <ClInclude Include="Simulation.h" />
+    <ClInclude Include="Sourcer.h" />
+    <ClInclude Include="utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Channel.cpp" />
+    <ClCompile Include="Communication.cpp" />
+    <ClCompile Include="DataProcessingUtil.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MathUtil.cpp" />
+    <ClCompile Include="MemoryManagementUtil.cpp" />
+    <ClCompile Include="Modem.cpp" />
+    <ClCompile Include="PolarCoder.cpp" />
+    <ClCompile Include="PolarCoderBPL.cpp" />
+    <ClCompile Include="PolarCoderBPL2.cpp" />
+    <ClCompile Include="PolarCoderPFG.cpp" />
+    <ClCompile Include="random.cpp" />
+    <ClCompile Include="RateAdapter.cpp" />
+    <ClCompile Include="RayleighChannel.cpp" />
+    <ClCompile Include="Result.cpp" />
+    <ClCompile Include="ResultBPL.cpp" />
+    <ClCompile Include="ResultOnce.cpp" />
+    <ClCompile Include="Simulation.cpp" />
+    <ClCompile Include="Sourcer.cpp" />
+    <ClCompile Include="utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
